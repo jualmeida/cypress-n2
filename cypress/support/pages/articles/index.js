@@ -16,10 +16,6 @@ class Articles {
 
   //Submeter publicacao
   submeterPublicacao() {
-    //POST 200 /api/articles
-    //GET 200 /api/articles/artigo-sobre-qa-ddg5ne
-    //GET 200 /api/articles/artigo-sobre-qa-ddg5ne/comments
-
     cy.get(el.buttonSubmit).click();
   }
 
