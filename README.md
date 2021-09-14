@@ -2,6 +2,10 @@
 
 ## 🚀 **Desafio Testers** </p>
 
+![Alt Text](https://github.com/jualmeida/cypress-n2/blob/master/cypress/support/videoReadme/desafio21.gif)
+![Alt Text](https://github.com/jualmeida/cypress-n2/blob/master/cypress/support/videoReadme/desafio2.gif)
+
+
 
 ### 💡 Instruções
 
