@@ -38,5 +38,4 @@ jobs:
       - run: npm install
 
       # executar os testes
-      - run: npm run cy:run:electron
       - run: npm rum cy:run:chrome      
