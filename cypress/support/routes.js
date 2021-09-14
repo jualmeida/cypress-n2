@@ -2,7 +2,10 @@ class Routes {
   as = {
     postArticles: 'POSTArticles',
     getArticlesTitle: 'GETArticlesTitle',
-    getArticlesComments: 'GETArticlesComents'
+    getArticlesComments: 'GETArticlesComents',
+    getArticlesFeed: 'GETArticlesFeed',
+    postUsers: 'postUsers'
+    
   };
 
   init() {
@@ -13,6 +16,8 @@ class Routes {
     cy.intercept('GET', '**/api/articles/artigo-sobre-qa-**/comments').as(
       this.as.getArticlesComments
     );
+    cy.intercept('POST', '**/api/users').as(this.as.postUsers);
+    cy.intercept('GET', '**/api/articles/feed**').as(this.as.getArticlesFeed);
   }
 }
 
